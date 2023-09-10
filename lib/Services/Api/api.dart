@@ -10,7 +10,7 @@ import 'package:http/http.dart' as http;
 class Api {
   static final headers = {
     'x-rapidapi-host': "v3.football.api-sports.io",
-    'x-rapidapi-key': "b1fdf62cbb56b8e5089b7a7ffc108e3c"
+    'x-rapidapi-key': "YOUR API KEY"
   };
 
   static Future<List<TableData>> getLeagueTable(String league) async {
